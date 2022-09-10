@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Tochka</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="text-field">
+      <label class="text-field__label" for="username">Логин</label>
+      <input
+        class="text-field__input"
+        type="text"
+        name="username"
+        id="username"
+      />
+    </div>
+    <main class="wrapper">
+      <section class="user">
+        <p>Ваш баланс:</p>
+        <div class="user__balance">
+          <img src="./assets/coin.svg" alt="Coin" />
+          <h1>0</h1>
+          <img src="./assets/et.svg" alt="Currency" />
+        </div>
+      </section>
+      <section class="products">
+        <div class="products__title">
+          <h2>Варианты обмена на скидку</h2>
+          <p>Инструкция</p>
+        </div>
+        <div class="products__products">
+          <div class="product">
+            <div class="product__price">
+              <img src="./assets/coin.svg" alt="Coin" />
+              <p>50</p>
+              <img src="./assets/et.svg" alt="Currency" />
+            </div>
+            <img
+              class="product__icon"
+              src="./assets/phone-call.svg"
+              alt="Phone call"
+            />
+            <div class="product__description">
+              <p>50%</p>
+              <p>на звонки ST (x2)</p>
+            </div>
+            <button class="product__button">Использовать скидку</button>
+          </div>
+          <div class="product">
+            <div class="product__price">
+              <img src="./assets/coin.svg" alt="Coin" />
+              <p>70</p>
+              <img src="./assets/et.svg" alt="Currency" />
+            </div>
+            <img
+              class="product__icon"
+              src="./assets/special-course.svg"
+              alt="Special course"
+            />
+            <div class="product__description">
+              <p>30%</p>
+              <p>на спецкурс</p>
+            </div>
+            <button class="product__button">Использовать скидку</button>
+          </div>
+          <div class="product">
+            <div class="product__price">
+              <img src="./assets/coin.svg" alt="Coin" />
+              <p>100</p>
+              <img src="./assets/et.svg" alt="Currency" />
+            </div>
+            <img class="product__icon" src="./assets/course.svg" alt="Course" />
+            <div class="product__description">
+              <p>50%</p>
+              <p>на курс</p>
+            </div>
+            <button class="product__button">Использовать скидку</button>
+          </div>
+          <div class="product">
+            <div class="product__price">
+              <img src="./assets/coin.svg" alt="Coin" />
+              <p>139</p>
+              <img src="./assets/et.svg" alt="Currency" />
+            </div>
+            <img class="product__icon" src="./assets/course.svg" alt="Course" />
+            <div class="product__description">
+              <p>65%</p>
+              <p>на курс</p>
+            </div>
+            <button class="product__button">Использовать скидку</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
